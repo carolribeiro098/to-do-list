@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Permanent+Marker&family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('img/background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+#center h1, #center2 h1{
+    margin-top: 50px;
+    padding-top: 30px;
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+#tafcadastrada button{
+    border-radius: 30px;
+    height: 35px;
+    width: 30%; 
+}
+#center, #center2{
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    width: 70%;
+    min-height: 700px;
+    text-align: center;
+    align-items: center;
+}
+#taf{
+    margin: 10px 0px 10px;
+    width: 50%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: large;
+    padding: 10px;
+    border: none;
+}
+#ad{
+    border-radius: 30px;
+    height: 60px;
+    width: 40%;
+    margin: 30px;
+    border: none;
+}
+#login{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background:url('img/background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    gap:15px;
+
+}
+#email, #senha, #confsenha, #logi, #nome{
+    width: 35vw;
+    height: 35px;
+    border-radius:15px;
+    padding: 10px;
+    
+} 
+#log{
+    border-radius: 15px;
+    height: 45px;
+    width: 35vw; 
+    margin-top: 30px;
+}
+header{
+    top:0;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+}
+header li{
+    text-align: right;
+    padding: 20px;
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+header li:hover{
+    transform: scale(1.005);
+    transition: .3s;
+}
+#dadosCad{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background:url('img/background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    gap:15px;
+
+}
+#dadosCad img{
+    width: 3%;
+    cursor: pointer;
+}
+#center2 h3{
+    font-size: 2rem;
+    color: #fff;
+}
+#dadosCad h3{
+    font-size: 1.8rem;
+}
